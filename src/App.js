@@ -10,6 +10,7 @@ import bigShop from './images/shop.jpg'
 import shop from './images/Shop.png'
 import shopBurned from './images/Shop-Burned.png'
 import shopHover from './images/Shop-Hover.png'
+import { Frame, useMotionValue, useTransform } from "framer-motion"
 
 
 import { useCallback, useEffect, useState } from "react";
