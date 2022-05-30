@@ -51,6 +51,7 @@ import {
 } from './web3Stuff.js'
 
 let bg = "/Background2.png";
+console.log("https://quaktown.notion.site/Welcome-to-Quaktown-477b14acf36849428e9312082147ba89");
 
 
 function App() {
