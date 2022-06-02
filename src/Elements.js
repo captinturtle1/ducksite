@@ -40,37 +40,61 @@ export const ServicesIcon = styled.img`
 `;
 
 export const ServicesH3 = styled.h2`
-font-family: 'Gochi Hand', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1.3rem;
   color: #000;
 `;
 
 export const ServicesH2 = styled.h2`
-font-family: 'Gochi Hand', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 2rem;
+  color: #000;
+  text-shadow: 1.5px 1.5px 5px #fff;
+  margin-bottom: 0px;
+`;
+
+export const Credits = styled.h2`
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1rem;
   color: #fff;
   text-shadow: 1.5px 1.5px 5px #000;
   margin-bottom: 0px;
 `;
 
-export const Credits = styled.h2`
-font-family: 'Gochi Hand', cursive;
-  font-size: 1.5rem;
+export const Credits2 = styled.h2`
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.7rem;
   color: #fff;
+  text-shadow: 1.5px 1.5px 5px #000;
+  margin-bottom: 0px;
+`;
+
+export const CreditsLink = styled.h2`
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: .8rem;
+  color: #808080;
   text-shadow: 1.5px 1.5px 5px #000;
   margin-bottom: 0px;
 `;
 
 export const ServicesP = styled.p`
-font-family: 'Gochi Hand', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 2rem;
-  color: #fff;
-  text-shadow: 1px 1px 5px #000;
+  color: #000;
+  text-shadow: 1px 1px 5px #fff;
   text-align: center;
 `;
 
+export const ServicesP2 = styled.p`
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1rem;
+  color: #000;
+  text-shadow: 1.5px 1.5px 5px #fff;
+  margin-bottom: 0px;
+`;
+
 export const Btn = styled.nav`
-font-family: 'Gochi Hand', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +120,7 @@ export const BtnLink = styled.nav`
 `;
 
 export const BtnButNotButton = styled.div`
-font-family: 'Gochi Hand', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
   background: #000;
   white-space: nowrap;
   padding: 10px 22px;

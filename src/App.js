@@ -40,6 +40,9 @@ import {
   BtnButNotButton,
   BtnWrapper,
   Credits,
+  CreditsLink,
+  Credits2,
+  ServicesP2,
 } from './Elements';
 
 import { 
@@ -330,7 +333,7 @@ function App() {
                 position="relative"
                 top="-75px"
                 right="-200px"
-                marginBottom="-40px"
+                marginBottom="-50px"
               >
                <Btn>
                   <Image src={("/x.png")}
@@ -338,18 +341,23 @@ function App() {
                   cursor="pointer"/>
                 </Btn>
               </Box>
-              <Credits>Adventure by</Credits>
-              <Credits>Alexander Nakarada</Credits>
-              <Credits>serpentsoundstudios.com</Credits>
-              <Credits>Music promoted by</Credits>
-              <Credits>hosic.com/free-music/all/</Credits>
-            </ServicesCard>
-            <ServicesCard>
-              <Credits>Attribution 4.0</Credits>
-              <Credits>International</Credits>
-              <Credits>(CC BY 4.0)</Credits>
-              <Credits>creativecommons.org</Credits>
-              <Credits>/licenses/by/4.0</Credits>
+              <ServicesCard>
+                <Credits2>Drawn by a quakhead.</Credits2>
+                <Credits2>Developed by a quakhead.</Credits2>
+                <Credits2>More info soon maybe.</Credits2>
+                <Credits2>
+                  <pre>                  -Anon</pre>
+                </Credits2>
+              </ServicesCard>
+              <ServicesCard>
+                <Credits2>Music:</Credits2>
+                <Credits>Adventure by Alexander Nakarada</Credits>
+                <CreditsLink>serpentsoundstudios.com</CreditsLink>
+                <Credits>Music promoted by</Credits>
+                <CreditsLink>hosic.com/free-music/all/</CreditsLink>
+                <Credits>Attribution 4.0 International (CC BY 4.0)</Credits>
+                <CreditsLink>creativecommons.org/licenses/by/4.0</CreditsLink>
+              </ServicesCard>
             </ServicesCard>
           </ServicesWrapper>
           </Box>
@@ -371,7 +379,7 @@ function App() {
                 position="relative"
                 top="-350px"
                 right="-220px"
-                marginBottom="-40px"
+                marginBottom="-80px"
               >
                <Btn>
                   <Image src={("/x.png")}
@@ -401,7 +409,7 @@ function App() {
               position="relative"
               top="-150px"
               right="-200px"
-              marginBottom="-40px"
+              marginBottom="-80px"
             >
              <Btn>
                 <Image src={("/x.png")}
@@ -409,9 +417,10 @@ function App() {
                 cursor="pointer"/>
               </Btn>
             </Box>
-            <ServicesH2>{COSTINETH} ETH Mint</ServicesH2>
-              <ServicesH2>1 Per Wallet</ServicesH2>
-              <ServicesP>{totalSupply}/{MAXSUPPLY} Minted </ServicesP>
+            <ServicesH2>FREE MINT</ServicesH2>
+            <ServicesP2>(just pay gas)</ServicesP2>
+            <ServicesH2>1 Per Wallet</ServicesH2>
+            <ServicesP>{totalSupply}/{MAXSUPPLY} Minted </ServicesP>
               {!saleStatus ? (
                 <div>
                 {!isSoldOut ? (
@@ -480,7 +489,7 @@ function App() {
         
         <Button
           onClick={updateConnected}
-          fontFamily="'Gochi Hand', cursive"
+          fontFamily="'Montserrat Alternates', sans-serif"
           cursor="pointer"
           position="absolute"
           top="32px"
@@ -719,7 +728,7 @@ function App() {
           
       <Button
           onClick={enter}
-          fontFamily="'Gochi Hand', cursive"
+          fontFamily="'Montserrat Alternates', sans-serif"
           position="absolute"
           top="45%"
           right="46.8%"
