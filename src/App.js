@@ -100,7 +100,7 @@ function App() {
     setIsCreditPanelOpen(false);
     setIsInfoPanelOpen(false);
     setIsMintPanelOpen(true);
-    bg = "/Background4.png";
+    bg = "/Background5.png";
     }
   };
 
@@ -113,7 +113,7 @@ function App() {
       bg = "/Background2.png";
     } else {
     setIsCreditPanelOpen(true);
-    bg = "/Background4.png";
+    bg = "/Background5.png";
     }
   };
 
@@ -126,7 +126,7 @@ function App() {
       bg = "/Background2.png";
     } else {
       setIsInfoPanelOpen(true);
-    bg = "/Background4.png";
+    bg = "/Background5.png";
     }
   };
 
@@ -580,6 +580,7 @@ function App() {
                               objectFit="contain"
                               src="/Mansion-Hover.png"
                               alt="MansionHover"
+                              height="30vh"
                             />
                           ) : (
                             <Image
@@ -588,6 +589,7 @@ function App() {
                               objectFit="contain"
                               src="/Mansion.png"
                               alt="ShopMansion"
+                              height="30vh"
                             />
                           )}
                         </Box>
@@ -696,6 +698,8 @@ function App() {
                               objectFit="contain"
                               src="/Boat-Hover.png"
                               alt="BoatHover"
+                              height="30vh"
+                              width="30vw"
                             />
                           ) : (
                             <Image
@@ -704,6 +708,8 @@ function App() {
                               objectFit="contain"
                               src="/Boat.png"
                               alt="Boat"
+                              height="30vh"
+                              width="30vw"
                             />
                           )}
                         </Box>
