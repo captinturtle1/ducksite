@@ -269,6 +269,10 @@ function App() {
     window.open("https://opensea.io/");
   }
 
+  const openTwitter = () => {
+    window.open("https://twitter.com/quaktown");
+  }
+
   const openLicense = () => {
     window.open("https://creativecommons.org/publicdomain/zero/1.0/");
   }
@@ -531,6 +535,14 @@ function App() {
             <Image src={("/unmuted.png")} onClick={() => setIsMuted(true)} 
             cursor="pointer"/>
           )}
+        </Box>
+        <Box
+          position="absolute"
+          bottom="32px"
+          right="150px"
+        >
+            <Image src={("/twitter.png")} onClick={() => openTwitter()} 
+            cursor="pointer"/>
         </Box>
         <Box
           position="absolute"
