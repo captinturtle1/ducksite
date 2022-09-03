@@ -1,7 +1,7 @@
 import { ethers, Signer } from "ethers";
 import abi from './abi.json'
 
-const contractAddress = "";
+const contractAddress = "0x20c5EA7694Ae0457CBBA46dd5DBf22E40eF1D7FF";
 const mutatedAddress = "";
 const COSTINETH = 0;
 

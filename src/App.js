@@ -266,7 +266,7 @@ function App() {
   }
 
   const openOpensea = () => {
-    window.open("https://opensea.io/");
+    window.open("https://opensea.io/collection/quakheads");
   }
 
   const openTwitter = () => {
